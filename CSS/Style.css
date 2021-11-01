@@ -1,0 +1,1356 @@
+
+@media (min-width: 1199.98px)  {
+body {
+    background-color: rgb(255, 255, 255);
+    background-attachment:fixed;
+    background-size: 150%;
+}
+header {
+    width: 100%;
+    height: 130px;
+    top: 0;
+    background: #2c2b2b;
+    box-shadow: 0px 9px 8px rgba(42,42,42,0.5);
+    position:sticky; 
+    z-index:9;
+}
+
+.logo {
+    width: 130px;
+    height: 130px;
+    float: right;
+    margin-right: 120px;
+}
+
+.resto_salvo h1 {
+    width: 393px;
+    height: 76px;
+    color: #fc4850;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 76px;
+    text-align: right;
+    float:right;
+    margin-right: 10px;
+    margin-top: 40px;
+    animation-name: example; /**Animación**/
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {color: #fc4850}
+    25%  {color: #ffffff;}
+    50%  {color: #fc4850;}
+    100% {color: #ffffff;}
+}
+
+  /** forma botonera **/
+.botonera_principal ul li a { 
+    display:inline-block;
+    width: auto;
+    height: 40px;
+    padding: 10px;
+    margin-top:40px;
+    background-color: #831a1ad3;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.botonera_principal ul{
+list-style-type: none;
+margin: 0px;
+padding: 90;
+float:left;
+
+}
+/** Botonera - Estilo **/
+.botonera_principal ul li{
+display: inline;
+width: auto;
+height: auto;
+padding: 5px;
+font-family: 'Sniglet', cursive;
+font-size: 15px;
+font-weight: 400;
+text-align: center;
+color: #ffffff;
+flex-wrap: row;
+-ms-flex-align: center;
+
+}
+/** botonera efectos **/
+.botonera_principal ul li a:link {
+color:white;
+}
+
+.botonera_principal ul li a:visited {
+color: rgb(255, 255, 255);
+}
+
+.botonera_principal ul li a:hover {
+color: rgb(255, 255, 255);
+background-color:#7ed957;
+}
+
+.botonera_principal ul li a:active {
+color: rgb(255, 255, 255);
+background-color:#fc4850;
+}
+
+.contenedor_central {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    top: 15px;
+    margin: 10px auto;
+    border-radius: 12px;
+    justify-content: center;
+     
+}
+.carousel {
+    width: 90%;
+    height: 1000px;
+    padding: 15px;
+    margin: 5px auto;
+}
+.contenedor_central h1 {
+    color: black;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 40px;
+    text-align: justify;
+}
+
+.texto1 h2 {
+    color:black;
+    font-family: 'Neucha', cursive;
+    font-size: 28px;
+    text-align: center;
+    margin: 10px auto;
+}
+.texto1 {
+    background-color: rgba(117, 117, 117, 0.5);
+    border-radius: 12px;
+    width: 95%;
+    margin: 5px auto;
+}
+.texto1 p {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+    color: #2c2b2b;
+    float: left;
+    padding: 10px;
+    margin: 5px auto;
+    text-align: center;
+}
+/*Palabra Menú con link*/
+.texto1 a {
+        text-decoration: none;
+        list-style-type: none;
+}
+.texto1 a:link {
+    color:black;
+}
+.texto1 a:visited {
+    color:#fc4850;
+}
+.texto1 a:hover {
+        color:#7ed957;
+}
+.texto1 a:active {
+        color:darkred;
+}
+
+.servicios {
+    width: 90%;
+    height: auto;
+    margin: 10px auto ;
+    padding: 10px;   
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+}
+.servicios h1, .menu h1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 40px;
+    text-align: justify;
+}
+.servicios_gral {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 
+    [left] 1fr
+    [middle] 1fr
+    [right] 1fr;
+    grid-row: inherit;
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    justify-content: center;
+    background-color: rgba(117, 117, 117, 0.5);
+    border-radius: 5px;   
+}
+
+.servicio_delivery {
+    margin: 3px auto;
+    width: 32%;
+    height: auto;
+}
+.servicio_takeaway {
+    margin: 3px auto;
+    width: 32%;
+    height: auto;
+    
+}
+.servicio_local {
+    margin: 3px auto;
+    width: 32%;
+    height: auto;
+    
+}
+.servicios_gral h2 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color: #7ed957d8;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px auto;
+}
+.servicios_gral p {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #2c2b2b;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.logo1 {
+    float: none;
+    margin: 5px 30%;
+}
+.menu {
+    display: flex;        
+        flex-direction: row;
+        flex-wrap: wrap;
+    width: 90%;
+    height: auto;
+    margin: 10px auto ;
+    padding: 10px;   
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+}
+.menu_top p {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+    color: #2c2b2b;
+    margin-top: 0;
+    text-align: justify;
+}
+.card-group {
+   width: 90%; 
+   margin: 5px auto;
+ 
+}
+.mas_info {
+    display: flex;        
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    margin: 10px auto;
+    width: 90%;
+    height: auto;
+    padding: 10px;  
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 12px; 
+}
+
+.conocenos {
+    margin: 5px auto;
+    width: 44%;
+    height: auto;
+    float:left;
+}
+.ubicacion {
+    margin: 5px auto;
+    width: 44%;
+    height: auto;
+    float:right;
+}
+.conocenos h1, .ubicacion h1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 40px;
+    text-align: justify;
+    top: 10;
+}
+.ubicacion p {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 20px;
+    color: #2c2b2b;
+    margin-top: 0;
+    text-align: justify;
+}
+.conocenos ul li a {
+    text-decoration:none;
+    font-size: 20px;
+    color:#2c2b2b;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.conocenos ul li {
+    list-style-type:none;
+    margin: 20px auto;
+}
+.conocenos a:link {
+    color:#fc4850;
+}
+.conocenos a:visited {
+    color:black;
+}
+.conocenos a:hover {
+        color:#7ed957;
+}
+.conocenos a:active {
+        color:darkred;
+}  
+
+/*FORMULARIO*/
+form {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 5px auto;
+    border-radius: 12px;
+}
+form h1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    top: 10;
+}
+
+form label, input {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 14px;
+    color:#2c2b2b;
+    margin: 5px auto;
+}
+#submit {
+        text-decoration:none;
+        font-weight: 600;
+        font-size: 20px;
+        color:#ffffff;
+        padding-top:15px;
+        padding-bottom:15px;
+        padding-left:40px;
+        padding-right:40px;
+        margin-top: 10px;
+        background-color:#f2595e;
+        border-color: #F69DA1;
+        border-width: 3px;
+        border-style: solid;
+        
+    }
+footer {
+    display: flex;        
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    width: 70%;
+    height: auto;
+    padding: 10px;  
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 12px; 
+}
+
+.mas_info1 {
+    display: flex;        
+    justify-content: right;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    width: 70%;
+    height: auto;
+    padding: 5px auto;  
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 12px; 
+}
+.ubicacion_contact {
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 12px; 
+    padding:10px;
+    margin: 5px auto;
+    width: 44%;
+    height: auto;
+    float:right;
+}
+.ubicacion_contact h1  {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 30px;
+    top: 30px;
+}
+.ubicacion_contact p  {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+    margin: 20px auto;
+}
+.conocenos_contact h1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    top: 10;
+}
+.ubicacion_contact .map {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+}
+.conocenos_contact ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px auto;
+    width: 60%;
+    height: auto;
+}
+.conocenos_contact ul li a {
+    text-decoration:none;
+    font-size: 20px;
+    color:#2c2b2b;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.conocenos_contact ul li {
+    list-style-type:none;
+    margin: 10px auto;
+    
+}
+.conocenos_contact a:link {
+    color:#fc4850;
+}
+.conocenos_contact a:visited {
+    color:black;
+}
+.conocenos_contact a:hover {
+        color:#7ed957;
+}
+.conocenos_contact a:active {
+        color:darkred;
+}  
+
+/*GALERÍA*/
+
+.galeria {
+    box-sizing: content-box;
+    width: 98%;
+    margin: 5px auto;
+    justify-content: center;
+}
+img {
+    width: 100%;
+}
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.column{
+    flex: 20%;
+    padding:5px;
+}
+.column img {
+    margin-top:5px;
+}
+
+}
+/*Fin Escritorio*/
+
+/*Tablet*/
+@media (min-width: 576px) and (max-width: 1199.97px) {
+    header {
+        width: 100%;
+        height: auto;
+        clear:both;
+        margin: 0;
+        padding: 10px;
+        background: #2c2b2b;
+        z-index:9;
+    }
+    
+    .logo {
+        display:none;
+    }
+    
+    .resto_salvo h1 {
+        color: #fc4850;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 50px;
+        line-height: 76px;
+        text-align: center;
+        margin-right: 5px;
+        margin-top: 0px;
+        animation-name: example; /**Animación**/
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes example {
+        0%   {color: #fc4850}
+        25%  {color: #ffffff;}
+        50%  {color: #fc4850;}
+        100% {color: #ffffff;}
+    }
+    
+      /** forma botonera **/
+    .botonera_principal ul li a { 
+        display:flex;
+        flex-direction: row;
+         justify-content: center;
+        width: 90%;
+        height: 40px;
+        padding: 5px;
+        margin:5px auto;
+        background-color: #831a1ad3;
+        border-radius: 15px;
+        text-decoration: none;
+    }
+    .fa-home {
+        margin: auto 4px;
+    }
+    .botonera_principal ul li{
+        display: inline;
+        width: auto;
+        height: auto;
+        font-family: 'Sniglet', cursive;
+        font-size: 20px;
+        text-align: center;
+        color: #ffffff;
+         }
+    .botonera_principal ul li a:link {
+            color:white;
+            }
+            
+    .botonera_principal ul li a:visited {
+            color: rgb(255, 255, 255);
+            }
+            
+    .botonera_principal ul li a:hover {
+            color: rgb(255, 255, 255);
+            background-color:#7ed957;
+            }
+            
+    .botonera_principal ul li a:active {
+            color: rgb(255, 255, 255);
+            background-color:#fc4850;
+            }
+    
+    .contenedor_central {
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        top: 15px;
+        margin: 10px auto;
+        border-radius: 12px;
+        justify-content: center;
+        font-family: 'Ubuntu Condensed', sans-serif;
+    }
+    .contenedor_central h1 {
+        font-size: 30px;
+    }
+    .contenedor_central p {
+        font-size: 16px;
+    }
+    .texto1 h2 {
+        color:black;
+        font-family: 'Neucha', cursive;
+        font-size: 18px;
+    }
+    .texto1 a {
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .texto1 a:link {
+        color:black;
+    }
+    .texto1 a:visited {
+        color:#fc4850;
+    }
+    .texto1 a:hover {
+            color:#7ed957;
+    }
+    .texto1 a:active {
+            color:darkred;
+    }
+    .servicios {
+        width: 90%;
+        height: auto;
+        margin: 10px auto ;
+        padding: 10px;   
+        background-color:rgba(255, 255, 255, 0.8);
+        border-radius: 12px;
+        font-family: 'Ubuntu Condensed', sans-serif;
+    }
+    .servicios h1, .menu h1 {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 30px;
+        text-align: justify;
+    }
+    .servicios_gral {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 
+        [left] 1fr
+        [middle] 1fr
+        [right] 1fr;
+        grid-column:auto;
+        width: 90%;
+        height: auto;
+        margin: 5px auto;
+        justify-content: center;
+        background-color: rgba(117, 117, 117, 0.5);
+        border-radius: 5px;   
+    }
+    
+    .servicio_delivery {
+        margin: 2px auto;
+        width: 32%;
+        height: auto;
+    }
+    .servicio_takeaway {
+        margin: 2px auto;
+        width: 32%;
+        height: auto;
+        
+    }
+    .servicio_local {
+        margin: 2px auto;
+        width: 32%;
+        height: auto;
+        
+    }
+    .servicios_gral h2 {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        background-color: #7ed957d8;
+        padding: 12px;
+        border-radius: 8px;
+        font-size: 18px;
+        text-align: center;
+        margin: 5px auto;
+    }
+    .servicios_gral p {
+        display:flex;
+        width: 90%;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 15px;
+        font-style: italic;
+        color: #2c2b2b;
+        margin-top: 6px;
+        text-align: center;
+    }
+    
+    .logo1 {
+        justify-content: center;
+        margin-left:22px;
+        top: 4px;
+    }
+    .servicio_takeaway h2 {
+        margin-top: 5px;
+    }
+    .menu {
+        display: flex;        
+            flex-direction: column;
+            flex-wrap: wrap;
+        width: 90%;
+        height: auto;
+        margin: 10px auto ;
+        padding: 10px;   
+        background-color:rgba(255, 255, 255, 0.8);
+        border-radius: 12px;
+    }
+    .menu img {
+        width: 100%;
+        height: auto;
+    }
+    .menu_top p {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 16px;
+        color: #2c2b2b;
+        margin-top: 0;
+        text-align: justify;
+    }
+    .card-group {
+       width: 100%; 
+       height: auto;
+       margin-left:5px auto;
+    }
+    .card-group .text-white {
+        font-size: 12px;
+    }
+
+    .mas_info {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 10px auto;
+        width: 90%;
+        height: auto;
+        padding: 10px;  
+        background-color:rgba(255, 255, 255, 0.8);
+        border-radius: 12px; 
+    }
+    .conocenos h1 {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 30px;
+    }
+    .ubicacion h1 {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 30px;
+        text-align: justify;
+        margin: 5px 0 5px -2px;
+        height: auto;
+    }
+    
+    .conocenos {
+        margin: 5px auto;
+        width: 44%;
+        height: auto;
+        float:left;
+    }
+    .ubicacion {
+        margin: 5px auto;
+        width: 44%;
+        height: auto;
+        float:right;
+    }
+    
+    .ubicacion p {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 16px;
+        color: #2c2b2b;
+        margin-top: 0;
+        text-align: justify;
+    }
+    .map {
+        margin-top: 5px;
+    }
+    .conocenos ul li a {
+        text-decoration:none;
+        font-size: 16px;
+        color:#2c2b2b;
+        font-family: 'Ubuntu Condensed', sans-serif;
+    }
+    .conocenos ul li {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        list-style-type:none;
+        margin: 5px auto;
+    }
+    .conocenos a:link {
+        color:#fc4850;
+    }
+    .conocenos a:visited {
+        color:black;
+    }
+    .conocenos a:hover {
+            color:#7ed957;
+    }
+    .conocenos a:active {
+            color:darkred;
+    }  
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: 5px auto;
+        border-radius: 12px;
+    }
+    form h1 {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 30px;
+        text-align: left;
+        top: 10;
+    }
+    
+    form label, input {
+        width: auto;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 14px;
+        color:#2c2b2b;
+        margin: 5px auto;
+    }
+    #submit {
+        display:flex;
+        flex-direction: row;
+        width: auto;
+            text-decoration:none;
+            font-weight: 600;
+            font-size: 20px;
+            color:#ffffff;
+            padding: 10px auto 10px;
+            margin-top: 10px;
+            background-color:#f2595e;
+            border-color: #F69DA1;
+            border-width: 3px;
+            border-style: solid;
+            }
+    
+    
+    
+    footer {
+        display: flex;
+        flex-direction: column;        
+        justify-content: center;
+        margin: 10px auto;
+        width: 70%;
+        height: auto;
+        padding: 10px;  
+        background-color:rgba(255, 255, 255, 0.8);
+        border-radius: 12px; 
+    }
+    
+    .mas_info1 {
+        display: flex;        
+        justify-content: right;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 10px auto;
+        width: 95%;
+        height: auto;
+        padding: 5px auto;  
+        background-color:rgba(255, 255, 255, 0.8);
+        border-radius: 12px; 
+    }
+    .ubicacion_contact {
+        background-color:rgba(255, 255, 255, 0.8);
+        border-radius: 12px; 
+        padding:10px;
+        margin: 5px auto;
+        width: 80%;
+        height: auto;
+        float:right;
+    }
+    .ubicacion_contact .map {
+        width: 100%;
+        margin:5px;
+    }
+    .ubicacion_contact h1 {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 30px;
+        top: 30px;
+    }
+    .ubicacion_contact p  {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 13px;
+        margin: 20px auto;
+    }
+    .conocenos_contact h1 {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        top: 7;
+    }
+    .conocenos_contact ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px auto;
+        width: 70%;
+        height: auto;
+    }
+    .conocenos_contact ul li a {
+        text-decoration:none;
+        font-size: 20px;
+        color:#2c2b2b;
+        font-family: 'Ubuntu Condensed', sans-serif;
+    }
+    .conocenos_contact ul li {
+        list-style-type:none;
+        margin: 10px auto;
+        
+    }
+    .conocenos_contact a:link {
+        color:#fc4850;
+    }
+    .conocenos_contact a:visited {
+        color:black;
+    }
+    .conocenos_contact a:hover {
+            color:#7ed957;
+    }
+    .conocenos_contact a:active {
+            color:darkred;
+    }  
+
+  /*GALERIA*/
+.galeria {
+    box-sizing: content-box;
+    width: 98%;
+    margin: 5px auto;
+    justify-content: center;
+}
+img {
+    width: 100%;
+}
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.column{
+    flex: 49%;
+    padding:5px;
+}
+.column img {
+    margin-top:5px;
+}
+
+
+}
+/*fin tablet*/
+
+/*movil*/
+@media (max-width: 575.98px) {
+    header {
+        width: auto;
+        height: auto;
+        clear:both;
+        margin: 0;
+        padding: 10px;
+        background: #2c2b2b;
+        z-index:9;
+    }
+    
+    .logo {
+        display:none;
+    }
+    
+    .resto_salvo h1 {
+        color: #fc4850;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 76px;
+        text-align: center;
+        margin-right: 5px;
+        margin-top: 0px;
+        animation-name: example; /**Animación**/
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes example {
+        0%   {color: #fc4850}
+        25%  {color: #ffffff;}
+        50%  {color: #fc4850;}
+        100% {color: #ffffff;}
+    }
+    
+      /** forma botonera **/
+    .botonera_principal ul li a { 
+        display:flex;
+        flex-direction: row;
+        width: 90%;
+        height: 40px;
+        padding: 5px;
+        margin:5px 0 5px 0;
+        background-color: #831a1ad3;
+        border-radius: 15px;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .fa-home {
+        margin: auto 4px;
+    }
+    .botonera_principal ul li{
+        display: inline;
+        width: auto;
+        height: auto;
+        font-family: 'Sniglet', cursive;
+        font-size: 20px;
+        text-align: center;
+        color: #ffffff;
+         }
+    .botonera_principal ul li a:link {
+            color:white;
+            }
+            
+    .botonera_principal ul li a:visited {
+            color: rgb(255, 255, 255);
+            }
+            
+    .botonera_principal ul li a:hover {
+            color: rgb(255, 255, 255);
+            background-color:#7ed957;
+            }
+            
+    .botonera_principal ul li a:active {
+            color: rgb(255, 255, 255);
+            background-color:#fc4850;
+            }
+    
+    .contenedor_central {
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        top: 15px;
+        margin: 10px auto;
+        border-radius: 12px;
+        justify-content: center;
+        font-family: 'Ubuntu Condensed', sans-serif;
+    }
+    .texto1 h2 {
+        color:black;
+        font-family: 'Neucha', cursive;
+        font-size: 18px
+    }
+    .texto1 a {
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .texto1 a:link {
+        color:black;
+    }
+    .texto1 a:visited {
+        color:#fc4850;
+    }
+    .texto1 a:hover {
+            color:#7ed957;
+    }
+    .texto1 a:active {
+            color:darkred;
+    }
+    .servicios {
+        width: 90%;
+        height: auto;
+        margin: 10px auto ;
+        padding: 10px;   
+        background-color:rgba(255, 255, 255, 0.8);
+        border-radius: 12px;
+        font-family: 'Ubuntu Condensed', sans-serif;
+    }
+    .servicios h1, .menu h1 {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 30px;
+        text-align: justify;
+    }
+    .servicios_gral {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-rows: 
+        [left] 1fr
+        [middle] 1fr
+        [right] 1fr;
+        grid-row:auto;
+        width: 90%;
+        height: auto;
+        margin: 5px auto;
+        justify-content: center;
+        background-color: rgba(117, 117, 117, 0.5);
+        border-radius: 5px;   
+    }
+    
+    .servicio_delivery {
+        margin: 2px auto;
+        width: 32%;
+        height: auto;
+    }
+    .servicio_takeaway {
+        margin: 2px auto;
+        width: 32%;
+        height: auto;
+        
+    }
+    .servicio_local {
+        margin: 2px auto;
+        width: 32%;
+        height: auto;
+        
+    }
+    .servicios_gral h2 {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        background-color: #7ed957d8;
+        padding: 10px;
+        border-radius: 8px;
+        font-size: 19px;
+        text-align: center;
+        margin: 5px auto;
+    }
+    .servicios_gral p {
+        display:flex;
+        width: 90%;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 15px;
+        font-style: italic;
+        color: #2c2b2b;
+        margin-top: 6px;
+        text-align: center;
+    }
+    
+    .logo1 {
+        justify-content: center;
+        margin-left:22px;
+    }
+    .servicio_takeaway h2 {
+        margin-top: -20px;
+    }
+    .menu {
+        display: flex;        
+            flex-direction: row;
+            flex-wrap: wrap;
+        width: 90%;
+        height: auto;
+        margin: 10px auto ;
+        padding: 10px;   
+        background-color:rgba(255, 255, 255, 0.8);
+        border-radius: 12px;
+    }
+    .menu_top p {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 16px;
+        color: #2c2b2b;
+        margin-top: 0;
+        text-align: justify;
+    }
+    .card-group {
+       width: 100%; 
+       height: auto;
+       margin-left:45%;
+    }
+    .card-group .text-white {
+        font-size: 12px;
+    }
+
+    .mas_info {
+       display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 10px auto;
+        width: 90%;
+        height: auto;
+        padding: 10px;  
+        background-color:rgba(255, 255, 255, 0.8);
+        border-radius: 12px; 
+    }
+    .conocenos h1 {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 30px;
+    }
+    .ubicacion h1 {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 30px;
+        text-align: justify;
+        margin: 5px 0 5px -2px;
+        height: auto;
+    }
+    
+    .conocenos {
+        margin: 5px 0 5px -2px;
+        height: auto;
+        float:left;
+    }
+    
+    .ubicacion p {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 16px;
+        color: #2c2b2b;
+        margin-top: 0;
+        text-align: justify;
+    }
+    .map {
+        margin: 5px 0 5px 13%;
+    }
+    .conocenos ul li a {
+        text-decoration:none;
+        font-size: 16px;
+        color:#2c2b2b;
+        font-family: 'Ubuntu Condensed', sans-serif;
+    }
+    .conocenos ul li {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items:center;
+        list-style-type:none;
+        margin: 5px 0 5px 7%;
+    }
+    .conocenos a:link {
+        color:#fc4850;
+    }
+    .conocenos a:visited {
+        color:black;
+    }
+    .conocenos a:hover {
+            color:#7ed957;
+    }
+    .conocenos a:active {
+            color:darkred;
+    }  
+/*FORMULARIO - CONTACTO*/
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: 5px auto;
+        border-radius: 12px;
+    }
+    form h1 {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 30px;
+        text-align: left;
+        top: 10;
+    }
+    
+    form label, input {
+        width: auto;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 14px;
+        color:#2c2b2b;
+        margin: 5px auto;
+    }
+    #submit {
+        display:flex;
+        flex-direction: row;
+        width: auto;
+            text-decoration:none;
+            font-weight: 600;
+            font-size: 20px;
+            color:#ffffff;
+            padding: 10px auto 10px;
+            margin-top: 10px;
+            background-color:#f2595e;
+            border-color: #F69DA1;
+            border-width: 3px;
+            border-style: solid;
+            }
+    
+    
+    
+    footer {
+        display: flex;
+        flex-direction: column;        
+        justify-content: center;
+        margin: 10px auto;
+        width: 70%;
+        height: auto;
+        padding: 10px;  
+        background-color:rgba(255, 255, 255, 0.8);
+        border-radius: 12px; 
+    }
+    
+    .mas_info1 {
+        display: flex;        
+        justify-content: right;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 10px auto;
+        width: 95%;
+        height: auto;
+        padding: 5px auto;  
+        background-color:rgba(255, 255, 255, 0.8);
+        border-radius: 12px; 
+    }
+    .ubicacion_contact {
+        background-color:rgba(255, 255, 255, 0.8);
+        border-radius: 12px; 
+        padding:10px;
+        margin: 5px auto;
+        width: 80%;
+        height: auto;
+        float:right;
+    }
+    .ubicacion_contact .map {
+        width: 100%;
+        margin:5px;
+    }
+    .ubicacion_contact h1 {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 30px;
+        top: 30px;
+    }
+    .ubicacion_contact p  {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 12px;
+        margin: 20px auto;
+    }
+    .conocenos_contact h1 {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        top: 7;
+    }
+    .conocenos_contact ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px auto;
+        width: 70%;
+        height: auto;
+    }
+    .conocenos_contact ul li a {
+        text-decoration:none;
+        font-size: 20px;
+        color:#2c2b2b;
+        font-family: 'Ubuntu Condensed', sans-serif;
+    }
+    .conocenos_contact ul li {
+        list-style-type:none;
+        margin: 10px auto;
+        
+    }
+    .conocenos_contact a:link {
+        color:#fc4850;
+    }
+    .conocenos_contact a:visited {
+        color:black;
+    }
+    .conocenos_contact a:hover {
+            color:#7ed957;
+    }
+    .conocenos_contact a:active {
+            color:darkred;
+    }  
+/*GALERIA*/
+.body_galeria {
+    width: 98%;
+    height: auto;
+    padding:0;
+}
+.galeria {
+    box-sizing: content-box;
+    width: 98%;
+    margin: 5px auto;
+    justify-content: center;
+}
+img {
+    width: 100%;
+}
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.column{
+    flex: 99%;
+    padding:5px;
+}
+.column img {
+    margin-top:5px;
+}
+
+}
+/*fin movil*/
+
+ 
